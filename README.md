@@ -27,16 +27,16 @@ Este proyecto forma parte del programa **Oracle Next Education (ONE)** en colabo
 ## 🧩 Estructura del proyecto
 
 src/
-├── ConversorApp.java
-│   - Clase principal que inicia la ejecución del programa.
-│
-├── ConversorMenu.java
-│   - Presenta el menú interactivo en consola y gestiona la entrada del usuario.
-│
-├── CurrencyConverterService.java
-│   - Encapsula la lógica de conexión con la API externa y realiza las conversiones.
-│
-└── ExchangeRateResponse.java
+ConversorApp.java
+   - Clase principal que inicia la ejecución del programa.
+
+ConversorMenu.java
+   - Presenta el menú interactivo en consola y gestiona la entrada del usuario.
+
+CurrencyConverterService.java
+   - Encapsula la lógica de conexión con la API externa y realiza las conversiones.
+
+ExchangeRateResponse.java
     - Modelo de datos que representa la respuesta JSON obtenida desde la API.
 
 ## 🌎 Monedas soportadas
@@ -56,6 +56,6 @@ Sea bienvenido/a al Conversor de Moneda =]
 1) Dólar => Peso argentino
 2) Peso argentino => Dólar
 ...
-Elija una opción válida:
+Elija una opción válida: 1
 Ingrese el monto a convertir: 100
 100 USD son 90000 ARS
