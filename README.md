@@ -26,15 +26,14 @@ Este proyecto forma parte del programa **Oracle Next Education (ONE)** en colabo
 
 ## 🧩 Estructura del proyecto
 
-src/
 ConversorApp.java
-   - Clase principal que inicia la ejecución del programa.
+    - Clase principal que inicia la ejecución del programa.
 
 ConversorMenu.java
-   - Presenta el menú interactivo en consola y gestiona la entrada del usuario.
+    - Presenta el menú interactivo en consola y gestiona la entrada del usuario.
 
 CurrencyConverterService.java
-   - Encapsula la lógica de conexión con la API externa y realiza las conversiones.
+    - Encapsula la lógica de conexión con la API externa y realiza las conversiones.
 
 ExchangeRateResponse.java
     - Modelo de datos que representa la respuesta JSON obtenida desde la API.
